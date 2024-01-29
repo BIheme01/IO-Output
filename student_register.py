@@ -1,17 +1,3 @@
-"""
-TASK
-
-1. Write a program that allows a user to register students for an exam venue.
-2. First, ask the user how many students are registering.
-3. Create a for loop that runs for that number of students.
-4. Each time the loop runs the program should ask the user to enter the
-next student ID number.
-5. Write each of the ID numbers to a text file called reg_form.txt
-6. Include a dotted line after each student ID because this document will be
-used as an attendance register, which the students will sign when they arrive at the exam venue.
-
-"""
-
 # 1. Create Welcome Message
 LINE = "-"*100
 
