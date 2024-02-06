@@ -25,7 +25,7 @@ for i, j in enumerate(range(total_students),1):
             student_id = input(f"\nPlease enter the student ID number of Student {i}: ")
             # Only allow Student ID to be printed if it's a 5-digit number
             if len(student_id) == 5 and student_id.isnumeric():
-                    with open ("io-output/reg_form.text", "a+") as file:  #use append
+                    with open ("io-output/reg_form.txt", "a+") as file:  #use append
                             file.write(f"{i}. Student ID:{student_id}\n")
                             file.write(LINE +"\n")
                             break                
